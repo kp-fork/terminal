@@ -88,6 +88,50 @@ Press one button and BBARIT opens **two real terminals** — a **Developer** (e.
 
 ---
 
+## 📋 Full feature list
+
+<details open>
+<summary><b>Everything in the box</b></summary>
+
+**AI agents & orchestration**
+- Multi-agent terminals: Claude Code, Codex, Gemini, Kimi, Qwen, Cursor, OpenCode, Ollama, Pi, Reasonix
+- 🦌 **Broker Agent** — AI dev↔review pair (git + wiki channel, self-improving, configurable roles, worktree isolation+merge, human approval gate)
+- AI Roundtable (multi-model debate), Orchestra / workflow pipelines (fan-out, decompose, parallel)
+- Per-project agent flags, models, autonomy modes (normal / auto-accept / full-auto / yolo)
+
+**Terminal & editor**
+- Native PTY (portable-pty + Rust), WebGL renderer, Unicode 11, ligatures, ~30fps
+- Resizable split panes (tree layout), tabs, multi-project tabs with per-project themes & fonts
+- Built-in editor (13+ file types), file tree, quick open, drag-drop, reveal in explorer
+- First-class CJK/IME (Korean/Chinese/Japanese), command palette, fully configurable keybindings & chords
+
+**Dev tools**
+- Git panel (status, diff, history, branches, stashes, tags, worktrees, merge)
+- Hybrid code search (BM25 + semantic / semble)
+- Kanban board, Todo, Gantt planner (global across projects), issue import
+- MCP server connections + built-in browser MCP bridge
+- Database: MySQL & PostgreSQL with schema browsing
+- PM2 / process monitoring, server Hub, SSH remote projects
+
+**Knowledge & skills**
+- Karpathy Wiki — two-tier (project + global) structured knowledge base
+- Notes / knowledge base with wikilinks, backlinks, tags, Obsidian-style graph view, templates
+- Skills library (thousands curated) + GitHub skill-pack import + Karpathy guidelines pack
+- Self-improving harness (background review → durable skills/rules), prompt library
+- AutoResearch (Karpathy-style autonomous ML experiment panel)
+
+**Integrations & remote**
+- Telegram, Discord, Slack (mirror terminal I/O + remote control)
+- GitHub, Linear connections; SSH remote-project terminals
+- Generic HTTP proxy (CORS-free) for integrations
+
+**Media & productivity**
+- Screen capture (region select), clipboard image paste into terminal
+- Native video editor, design/media generation hooks, video-to-prompt & face-swap skills
+- OS notifications, completion sounds, auto-updater (Tauri), collab session sharing
+
+</details>
+
 ## 💻 Requirements
 
 | | |
